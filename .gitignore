@@ -1,4 +1,55 @@
+# Entornos virtuales
 .venv/
+venv/
+env/
+
+# Cachés de Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Paquetes y metadatos
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Cobertura
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# PyInstaller
+*.spec
+
+# Logs y artefactos
+*.log
+
+# Variables de entorno
+.env
+.env.*
+*.env
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Editores/IDE
+.vscode/
+.idea/
+.history/
+.fleet/
+.vs/
+.cursor/
+
+# Versiones de Python (asdf/pyenv)
+.python-version
